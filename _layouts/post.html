@@ -1,18 +1,39 @@
 ---
 layout: default
 ---
-<article class="page-article">
-  <div class="wrap-content">
-    <header class="page-header">
-      <h1 class="page-title">{{page.title}}</h1>
-      <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-    </header>
-    <div class="page-content">
-      {% if page.img %}
-      <img class="page-img" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-      {% endif %}
-      {{page.content | markdownify}}
-    </div>
-    {% include disqus.html %}
-  </div>
-</article>
+
+<h1>
+  {{ page.title }}
+</h1>
+
+{% if page.image.feature %}
+  <img src="{{ site.github.url }}/assets/img/{{ page.image.feature }}">
+{% endif %}
+
+{{ content }}
+
+<span class="post-date">
+  Written on
+  {% assign d = page.date | date: "%-d"  %}
+  {{ page.date | date: "%B" }}
+  {% case d %}
+    {% when '1' or '21' or '31' %}{{ d }}st
+    {% when '2' or '22' %}{{ d }}nd
+    {% when '3' or '23' %}{{ d }}rd
+    {% else %}{{ d }}th{% endcase %},
+  {{ page.date | date: "%Y" }}
+  by
+  {% if page.author %}
+    {{ page.author }}
+  {% else %}
+    {{ site.data.settings.author.name }}
+  {% endif %}
+</span>
+
+{% include social-sharing.html %}
+
+{% include related-posts.html %}
+
+{% if site.data.settings.disqus.comments %}
+  {% include disqus.html %}
+{% endif %}
