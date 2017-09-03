@@ -20,7 +20,7 @@ email: #your-email@domain.com
 discus-identifier: # Add your Disqus identifier
 
 # Paginate
-paginate: 5
+paginate: 4
 paginate_path: /page:num/
 
 # Build settings
