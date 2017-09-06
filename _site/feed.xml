@@ -1,92 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-03T10:30:54+08:00</updated><id>http://localhost:4000/</id><title type="html">Lylleny blog</title><subtitle>忠实的iOS开发者
-</subtitle><entry><title type="html">An old house</title><link href="http://localhost:4000/an-old-house/" rel="alternate" type="text/html" title="An old house" /><published>2017-03-30T08:00:00+08:00</published><updated>2017-03-30T08:00:00+08:00</updated><id>http://localhost:4000/an-old-house</id><content type="html" xml:base="http://localhost:4000/an-old-house/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-06T21:46:54+08:00</updated><id>http://localhost:4000/</id><title type="html">Lylleny blog</title><subtitle>忠实的iOS开发者
+</subtitle><entry><title type="html">React栈</title><link href="http://localhost:4000/React/" rel="alternate" type="text/html" title="React栈" /><published>2017-02-16T02:32:40+08:00</published><updated>2017-02-16T02:32:40+08:00</updated><id>http://localhost:4000/React</id><content type="html" xml:base="http://localhost:4000/React/">&lt;h1 id=&quot;promise&quot;&gt;Promise&lt;/h1&gt;
+&lt;p&gt;promise就是一个对象，用来传递异步操作的消息。它代表了某个未来才会知道结果的事件（通常是一个异步操作），并且这个事件提供统一的API，可以供进一步处理。&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;具有以下2个特点：&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary></entry><entry><title type="html">Zagreb city</title><link href="http://localhost:4000/zagreb-city/" rel="alternate" type="text/html" title="Zagreb city" /><published>2017-03-29T06:00:00+08:00</published><updated>2017-03-29T06:00:00+08:00</updated><id>http://localhost:4000/zagreb-city</id><content type="html" xml:base="http://localhost:4000/zagreb-city/">&lt;p&gt;Cras ac ex sit amet leo rhoncus elementum eget eget eros. Curabitur venenatis lacus eget tempus consequat. Duis feugiat vehicula bibendum. Aliquam imperdiet tortor in diam viverra scelerisque. Vestibulum erat odio, rutrum nec volutpat et, mattis id diam. Vivamus nec nunc placerat, laoreet sapien ac, dignissim magna. Sed eu lorem eget eros bibendum dignissim. Etiam eget mi non turpis pellentesque dignissim et quis turpis. Pellentesque efficitur enim in lorem consectetur scelerisque.&lt;/p&gt;
+&lt;p&gt;1)对象的状态不受外界影响。&lt;/p&gt;
 
-&lt;p&gt;Ut ut dolor vehicula, aliquam elit vitae, venenatis velit. Pellentesque sollicitudin vestibulum ligula, in volutpat elit vehicula vel. Mauris massa ante, vestibulum eget nisi vel, elementum tempor risus. Vivamus tincidunt ligula lorem. In viverra suscipit enim et finibus. Cras porta massa vitae ligula pretium dapibus. Ut nisl nulla, sollicitudin nec viverra quis, bibendum vel tortor. Aenean at porttitor dolor, id tristique purus. Phasellus consequat justo in elit congue sagittis. Cras at dolor molestie nisl feugiat scelerisque.&lt;/p&gt;
+&lt;p&gt;2)状态一旦改变，就不会再变，任何时候都可以得到这个结果。&lt;/p&gt;
 
-&lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque leo nulla, luctus vitae fermentum ac, posuere vitae lacus. Fusce interdum cursus enim ac mattis. Nunc id ornare ipsum, in commodo urna. Integer id lacus placerat, vehicula risus id, finibus sem. Morbi et elementum arcu, eget tempor est. Duis vulputate porta magna in volutpat. Morbi a feugiat velit, vel efficitur ex.&lt;/p&gt;
+&lt;h1 id=&quot;redux&quot;&gt;redux&lt;/h1&gt;
 
-&lt;p&gt;Praesent non elementum turpis. Fusce venenatis est sed tortor laoreet venenatis. Suspendisse potenti. Cras tempor vulputate velit, ac suscipit leo efficitur id. Pellentesque quis urna interdum, bibendum arcu id, pharetra orci. Fusce sit amet accumsan risus. Ut malesuada dui enim, a cursus felis scelerisque ut. Sed fermentum mauris lacus. Cras vitae sagittis erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vehicula molestie lectus, sed consectetur velit suscipit non. Phasellus et vestibulum dolor, sit amet viverra ex. Vestibulum consequat purus nisi. Nunc ultricies ex vel justo cursus, sed placerat massa hendrerit.&lt;/p&gt;
+&lt;p&gt;redux 是一个应用于管理js应用状态的容器。&lt;/p&gt;
 
-&lt;p&gt;Etiam aliquet eros id lacus suscipit, non pellentesque neque faucibus. Quisque convallis ex vel erat venenatis, ut eleifend nisi rhoncus. Duis in felis ligula. Donec tincidunt efficitur massa aliquam molestie. Nulla pellentesque justo est. Aliquam velit massa, pharetra viverra laoreet et, mollis nec ipsum. Aliquam non ullamcorper ligula. Cras accumsan non ante sit amet tempus.&lt;/p&gt;
+&lt;p&gt;三大原则：&lt;/p&gt;
 
-&lt;p&gt;Nulla egestas vestibulum ligula accumsan scelerisque. Sed nunc dolor, malesuada vitae metus cursus, venenatis efficitur mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris et turpis id orci gravida aliquam. Curabitur ullamcorper fermentum orci, vitae ornare risus tincidunt non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut bibendum est vel risus egestas congue. Aenean varius orci at purus maximus, euismod imperdiet purus varius.&lt;/p&gt;</content><author><name></name></author><summary type="html">Cras ac ex sit amet leo rhoncus elementum eget eget eros. Curabitur venenatis lacus eget tempus consequat. Duis feugiat vehicula bibendum. Aliquam imperdiet tortor in diam viverra scelerisque. Vestibulum erat odio, rutrum nec volutpat et, mattis id diam. Vivamus nec nunc placerat, laoreet sapien ac, dignissim magna. Sed eu lorem eget eros bibendum dignissim. Etiam eget mi non turpis pellentesque dignissim et quis turpis. Pellentesque efficitur enim in lorem consectetur scelerisque.</summary></entry><entry><title type="html">Wooden house</title><link href="http://localhost:4000/the-white-house/" rel="alternate" type="text/html" title="Wooden house" /><published>2017-03-29T06:00:00+08:00</published><updated>2017-03-29T06:00:00+08:00</updated><id>http://localhost:4000/the-white-house</id><content type="html" xml:base="http://localhost:4000/the-white-house/">&lt;p&gt;Mauris rutrum, felis vestibulum sodales posuere, erat odio volutpat ex, id interdum mi turpis ac eros. Etiam et mattis quam, non sagittis mauris. Pellentesque eleifend turpis et sem lobortis dignissim. Vivamus sagittis maximus ultricies. Ut sed nisi nisl. Sed sed purus sit amet mi accumsan dignissim ut quis augue. Nullam ut lacus nec odio aliquam tempor. Praesent nulla sapien, congue bibendum tristique luctus, mattis nec augue.&lt;/p&gt;
+&lt;p&gt;1)单一数据源&lt;/p&gt;
 
-&lt;p&gt;Praesent accumsan, velit eget iaculis faucibus, eros quam venenatis nulla, vel accumsan risus nibh eu risus. Aenean rutrum efficitur eros, nec tincidunt felis dignissim eget. Mauris et eros nec leo varius auctor eget nec urna. Mauris ac purus neque. Nulla sed ultricies dolor, eget eleifend magna. Sed sapien nisl, vestibulum vel facilisis sit amet, finibus eu enim. Etiam et nisl ut odio commodo tempor. In rutrum a quam a lobortis. Duis euismod luctus ex nec pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi eu neque nisl. Vivamus fringilla lorem non varius sagittis. Phasellus quis dapibus elit. Curabitur gravida purus id tincidunt sollicitudin. Suspendisse in placerat felis.&lt;/p&gt;
+&lt;p&gt;2)状态唯一性&lt;/p&gt;
 
-&lt;p&gt;Phasellus tincidunt pulvinar ante, pretium pellentesque urna mollis id. Donec convallis ut elit at aliquet. Suspendisse potenti. Maecenas finibus urna at arcu mollis imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ut odio sagittis, mollis nibh sed, maximus arcu. Vestibulum varius dictum ipsum consequat posuere. Maecenas tincidunt turpis in tellus elementum auctor. Curabitur fringilla a risus eget consequat.&lt;/p&gt;
+&lt;p&gt;3)使用纯函数来执行&lt;/p&gt;
 
-&lt;p&gt;Suspendisse massa mi, iaculis in cursus in, ullamcorper vitae orci. Praesent porttitor erat eu massa facilisis, id consequat est ultrices. Ut ac nibh sed turpis tincidunt suscipit a non arcu. Praesent imperdiet nisi non sapien efficitur mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent euismod sagittis consequat. Proin nulla lacus, porta eget pulvinar eu, aliquam malesuada sem. Pellentesque sed dolor et urna ullamcorper rhoncus. Mauris tempor aliquam dolor eget efficitur. Donec tristique fermentum ligula eu feugiat. Morbi dolor sapien, condimentum eu massa id, faucibus egestas sapien. Sed eu gravida dui. Nunc at felis consectetur felis fermentum pharetra.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mauris rutrum, felis vestibulum sodales posuere, erat odio volutpat ex, id interdum mi turpis ac eros. Etiam et mattis quam, non sagittis mauris. Pellentesque eleifend turpis et sem lobortis dignissim. Vivamus sagittis maximus ultricies. Ut sed nisi nisl. Sed sed purus sit amet mi accumsan dignissim ut quis augue. Nullam ut lacus nec odio aliquam tempor. Praesent nulla sapien, congue bibendum tristique luctus, mattis nec augue.</summary></entry><entry><title type="html">Example</title><link href="http://localhost:4000/example/" rel="alternate" type="text/html" title="Example" /><published>2017-03-29T06:00:00+08:00</published><updated>2017-03-29T06:00:00+08:00</updated><id>http://localhost:4000/example</id><content type="html" xml:base="http://localhost:4000/example/">&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;/h2&gt;
+&lt;p&gt;三个核心概念：&lt;/p&gt;
 
-&lt;p&gt;Headings by default:&lt;/p&gt;
+&lt;p&gt;1)Action：通常我们要修改store中的数据唯一的方法是触发action。一般通过store.dispatch()将action传到store，相当于就是描述了有事情已经发生了这一事实。action本质是一个对象，通常包括一个唯一标识符type，用于区分&lt;/p&gt;
 
-&lt;h2 id=&quot;heading-first-level&quot;&gt;Heading first level&lt;/h2&gt;
-&lt;h3 id=&quot;heading-second-level&quot;&gt;Heading second level&lt;/h3&gt;
-&lt;h4 id=&quot;heading-third-level&quot;&gt;Heading third level&lt;/h4&gt;
+&lt;p&gt;2)Reducer:reducer本质是一个纯函数，只负责一件事，就是根据接受到action和state来修改store中的state，产生一个新的state&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;gu&quot;&gt;## Heading first level&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;### Heading second level&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;#### Heading third level&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;3）Store:store就是把reducer和action联系到一起的对象，它以树的形式保存了整个应用的state，redux应用只有唯一的一个store。它的作用是维持应用的state；提供getstate()方法获取state；提供dispatch(action)方法更新state；通过subscribe(listener)注册监听器。store通过createStore方法来创建，根据整个应用的根reducer初始化state，类似&lt;/p&gt;
 
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;let store =createStore(rootRuducer)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Unordered list example:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Unordered list item 1&lt;/li&gt;
-  &lt;li&gt;Unordered list item 2&lt;/li&gt;
-  &lt;li&gt;Unordered list item 3&lt;/li&gt;
-  &lt;li&gt;Unordered list item 4&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;redux是怎样运作的：首先store中维护了一个state，我们dispatch一个action，接下来reducer根据这个action更新state。映射到我们react应用中，store中维护的state就是我们的APP state，一个组件作为view层，做2件事：render和响应用户操作。于是connect就是将store中的必要参数作为props传递给react组件来render，并包装action creator用于在响应用户响应操作时dispatch一个action
+#React-redux&lt;/p&gt;
 
-&lt;p&gt;Ordered list example:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Ordered list item 1&lt;/li&gt;
-  &lt;li&gt;Ordered list item 1&lt;/li&gt;
-  &lt;li&gt;Ordered list item 1&lt;/li&gt;
-  &lt;li&gt;Ordered list item 1&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Redux和React并没有必须的关系，它可以被任何的JavaScript框架应用。它和react和react-native配合的更完美。因为react和react-native的组件都是基于state来渲染视图的。而redux正是围绕state的管理而构建起来的应用框架。&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; Unordered list item 1
-&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; Unordered list item 2
-&lt;span class=&quot;p&quot;&gt;
-1.&lt;/span&gt; Order list item 1
-&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; Order list item 1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;react-redux 主要提供两个组件来实现redux功能。&lt;/p&gt;
 
-&lt;h2 id=&quot;quotes&quot;&gt;Quotes&lt;/h2&gt;
+&lt;h3 id=&quot;connect&quot;&gt;Connect&lt;/h3&gt;
+&lt;p&gt;Connet组件主要为react组件提供store中的部分state数据及dispatch方法，这样react组件就可以通过dispatch来更新全局state。&lt;/p&gt;
 
-&lt;p&gt;A quote looks like this:&lt;/p&gt;
+&lt;p&gt;作用：连接react组件和redux-store&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;contect([mapStateToProps],[mapDispatchToProps],
+[mergeProps],[options])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor&lt;/span&gt;
-incididunt ut labore et dolore magna.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Headings</summary></entry><entry><title type="html">China - tiger leaping gorge</title><link href="http://localhost:4000/china-tiger-leaping-gorge/" rel="alternate" type="text/html" title="China - tiger leaping gorge" /><published>2017-03-29T06:00:00+08:00</published><updated>2017-03-29T06:00:00+08:00</updated><id>http://localhost:4000/china-tiger-leaping-gorge</id><content type="html" xml:base="http://localhost:4000/china-tiger-leaping-gorge/">&lt;p&gt;Curabitur vulputate enim at metus malesuada, in iaculis nisl tincidunt. Mauris dapibus ut ante ornare ullamcorper. Vivamus ultrices erat lorem. Phasellus pretium nisl ac elit porttitor, id condimentum velit aliquam. Morbi convallis fermentum rutrum. Nullam vestibulum sem augue, eu fermentum est tristique ut. Cras nec euismod erat. Vivamus cursus risus mauris, quis dapibus orci tincidunt at. Mauris eleifend lobortis nibh, at volutpat risus feugiat non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque semper elit condimentum, ullamcorper erat eu, ultrices ex. Etiam ultricies sed orci quis elementum.&lt;/p&gt;
+&lt;p&gt;参数说明：&lt;/p&gt;
 
-&lt;p&gt;Pellentesque eu porta odio. Cras a gravida ligula. Nullam purus turpis, dignissim sed lectus at, bibendum tristique nulla. Etiam mollis, ligula at eleifend mollis, ex erat finibus dui, quis efficitur dolor est fringilla tellus. Donec laoreet id tellus eget rutrum. Aliquam blandit tempor odio. Vivamus vel dolor ante.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mapStateToProps(state,owerProps):stateProps 这个参数函数允许我们将store中的数据作为props绑定到组件上。当state变化，mapStateToProps都会被调用，产生一个新的state
 
-&lt;p&gt;Vestibulum dignissim ac mauris sed laoreet. Mauris ligula lectus, placerat id eleifend vel, rhoncus ut lacus. Nunc justo enim, maximus quis ex ut, sollicitudin condimentum ligula. Donec convallis libero sit amet aliquet tempus. Curabitur ac fringilla dui. Integer consectetur at augue ac tempus. Nullam cursus justo nec turpis accumsan, nec tincidunt sapien facilisis. Mauris fringilla augue quis dui placerat lobortis. Praesent ultricies, nisl ac maximus posuere, mi felis convallis massa, ut dictum enim mi et ex. Curabitur gravida neque at fringilla pulvinar. Quisque non turpis non nisl eleifend condimentum sed eget libero.&lt;/p&gt;
+maoDispatchToProps(dispatch,ownProps):dispatchProps contect的第二个参数将action作为props绑定到组件上，也会成为组件的props。
 
-&lt;p&gt;Praesent vestibulum in odio at mattis. In purus lacus, commodo et pretium nec, interdum in mauris. Phasellus non sodales nisi. Nam suscipit molestie feugiat. Proin semper ut lectus id malesuada. Vivamus lectus lacus, luctus et nisl placerat, tristique semper elit. Morbi viverra lobortis iaculis.&lt;/p&gt;
+[mergeProps],[options] 不管是stateProps还是dispatchProps，都需要和ownprops  merge之后参会被赋值组件。connect第三个参数就是干这个事的。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Nam in sagittis enim. Donec eget enim viverra, dapibus mi in, condimentum arcu. Vivamus ipsum nisl, consequat vitae rhoncus id, mattis vel velit. Duis ac libero eget felis tristique mattis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc condimentum interdum dui et varius. Aliquam sed congue erat, in fringilla risus. Integer viverra vulputate ligula eu dignissim. Suspendisse rhoncus id lectus a rutrum. Praesent quis erat sit amet ipsum molestie scelerisque ac at augue. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris suscipit ante in risus sollicitudin, non imperdiet mauris ullamcorper.&lt;/p&gt;
+&lt;p&gt;第四个参数，可不传&lt;/p&gt;
 
-&lt;p&gt;Sed viverra, dolor mollis dignissim consectetur, arcu mauris vehicula nibh, ac sollicitudin nisi sem vitae libero. Praesent sagittis, nulla sed ultricies placerat, nisl dui luctus dui, et vulputate tortor nisl et dolor. Nam pretium nunc nunc, sit amet luctus ante egestas id. Sed convallis viverra sem quis dapibus. Proin molestie orci sit amet volutpat sollicitudin. Morbi fringilla in lacus nec molestie. Integer in ipsum facilisis, gravida diam nec, fermentum urna.&lt;/p&gt;
+&lt;h2 id=&quot;provider&quot;&gt;Provider&lt;/h2&gt;
+&lt;p&gt;provider模块是作为整个APP的容器，在你原来的APP container的基础上再包上一层，它的工作很简单，就是接受redux的store作为props，并将其声明为context的属性之一，子组件可以在声明了contextTypes之后可以方便通过this.context.store访问奥store。不过我们通常不这样干，将store放在context里，是为了给下面的connect使用的。&lt;/p&gt;
 
-&lt;p&gt;Praesent elementum neque quis pulvinar blandit. Aliquam fermentum tincidunt leo et tincidunt. Quisque finibus mattis fermentum. Nam pretium ullamcorper iaculis. Ut diam orci, volutpat quis augue sed, finibus auctor dui. Phasellus aliquet sagittis dolor, et blandit enim. Phasellus feugiat eleifend scelerisque. Mauris et diam sit amet massa tempus consequat. Vivamus blandit velit nec elit elementum pellentesque. Integer sed mi et mi tempus condimentum. Nullam ligula metus, vestibulum eget blandit eu, tempor ut neque. Fusce bibendum ac lacus ut pharetra. Curabitur laoreet eu enim sit amet imperdiet. Aenean rhoncus tortor vel arcu elementum semper. Quisque orci risus, viverra nec est pharetra, convallis placerat felis.&lt;/p&gt;</content><author><name></name></author><summary type="html">Curabitur vulputate enim at metus malesuada, in iaculis nisl tincidunt. Mauris dapibus ut ante ornare ullamcorper. Vivamus ultrices erat lorem. Phasellus pretium nisl ac elit porttitor, id condimentum velit aliquam. Morbi convallis fermentum rutrum. Nullam vestibulum sem augue, eu fermentum est tristique ut. Cras nec euismod erat. Vivamus cursus risus mauris, quis dapibus orci tincidunt at. Mauris eleifend lobortis nibh, at volutpat risus feugiat non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque semper elit condimentum, ullamcorper erat eu, ultrices ex. Etiam ultricies sed orci quis elementum.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-26T03:32:40+08:00</published><updated>2017-03-26T03:32:40+08:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;h2 id=&quot;为啥connect能成功使用&quot;&gt;为啥connect能成功使用&lt;/h2&gt;
+&lt;p&gt;connect能成功，是因为Provider组件。Provider在原应用组件上包裹了一层，使原来 的整个应用成为Provider的子组件，接受redux的store作为props，通过context对象传递给子孙组件上的contect。而connect真正连接redux和react，它包裹在我们的容器组件的外一层，它接受上面的provider提供的store里面的state和dispatch，传给一个构造函数，返回一个对象，以属性形式传给我们的容器组件&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;connect是一个高阶函数，首先传入mapStateToProps，mapDispatchToProps,然后返回一个生产Component函数（wrapWithConnet）,然后再讲真正的Component作为参数传入warpWithConnect，这样就生产出一个经过包裹的connect组件，该组件具有以下特点：&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;*通过props。store获取祖先Component的store&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;*props包括stateProps、dispatchProps,parentProps,合并一起得到nextState,作为一个新的props传给真正的Component&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;*componentDidMount时，添加事件this.store.subscribe(this.handleChange),实现页面交互&lt;/p&gt;
+
+&lt;p&gt;*shouldComponentUpdate时判断是否有避免进行渲染，提升页面性能，并得到nextstate&lt;/p&gt;
+
+&lt;p&gt;*componentWillUnmount时移除this.handleChange&lt;/p&gt;</content><author><name></name></author><summary type="html">Promise promise就是一个对象，用来传递异步操作的消息。它代表了某个未来才会知道结果的事件（通常是一个异步操作），并且这个事件提供统一的API，可以供进一步处理。</summary></entry><entry><title type="html">回味Object-C</title><link href="http://localhost:4000/Object-C/" rel="alternate" type="text/html" title="回味Object-C" /><published>2017-02-15T02:32:40+08:00</published><updated>2017-02-15T02:32:40+08:00</updated><id>http://localhost:4000/Object-C</id><content type="html" xml:base="http://localhost:4000/Object-C/">&lt;h2 id=&quot;runtime&quot;&gt;runtime&lt;/h2&gt;
+&lt;p&gt;Object-C使用了面向对象特性和消息转发机制。&lt;/p&gt;
+
+&lt;p&gt;对于C语言，函数的调用在编译的时候回决定调用哪个函数，编译完成之后直接顺序执行，无任何二义性。OC的函数调用为消息转发机制，属于动态调用。在编译的时候并不能决定真正调用哪个函数（事实证明，在编译阶段，OC可以调用任何函数，即使这个函数并未实现，只要申明过就不会报错，而C语言在编译阶段就会报错），只有在真正运行的时候才会根据函数的名称找打对应的函数开调用。&lt;/p&gt;
+
+&lt;p&gt;先看看runtime消息发送是怎么实现的：
+首先，编译器将代码[obj makeText]转化为obj_msgsend(obj,@select(makeText))，在obj_msgsend函数里，首先统统obj的isa指针找到obj对应的class。在Class中先去cache尊重通过SEL查找对应函数method，若cache中未找到，再去methodList里查找，若methodList中也没有找到，则去superClass中查找。若找到，将method加入到cache中，以便下次查找，并通过method中的函数指针跳转到对应的函数中执行。
+##RunLoop
+1.RunLoop,是多线程的法宝，一个线程一次只能执行一个任务，执行完任务就会退出线程。主线程执行完即时任务会继续等待接受任务事件而不退出。非主线程通常是执行完某一个任务，就归还资源，因此默认是不执行RunLoop的。&lt;/p&gt;
+
+&lt;p&gt;2.每个子线程都有其对应的RunLoop,只是默认只有主线程的RunLoop是启动，其他的子线程的RunLoop默认是不启动的，若要启动则需要手动启动。&lt;/p&gt;
+
+&lt;p&gt;3.NSRunLoop使用实例：如果要让NSTimer的方法，可以在任何情况下都有回调，需要将NSTimer放置到指定的CommonMode模式下，这样就可以不受其他模式的影响，正常显示时间点。&lt;/p&gt;
+
+&lt;h2 id=&quot;深浅拷贝&quot;&gt;深浅拷贝&lt;/h2&gt;
+&lt;p&gt;浅拷贝，拷贝过后指向的是同一个内存资源，复制的只不过是一个指针，对象本身资源还是只有一份，所以我们对拷贝后的进行修改操作，同样会原来对象的改变，这就是浅拷贝。&lt;/p&gt;
+
+&lt;p&gt;浅拷贝好比你和你的影子，你完蛋，你的影子就完蛋&lt;/p&gt;
+
+&lt;p&gt;深拷贝好比你和你的克隆人，你完蛋，你的克隆人还是活着&lt;/p&gt;
+
+&lt;h2 id=&quot;fmdb线程安全&quot;&gt;FMDB线程安全&lt;/h2&gt;
+&lt;p&gt;原理：文件数据库sqlite，同一时刻允许多个线程/进程读，但是同一时刻只允许一个线程写。在执行写的操作时，数据库文件被锁定，此时任何的读/写操作都是被阻塞，如果阻塞超过5秒钟，就报”database is locked“&lt;/p&gt;
+
+&lt;p&gt;FMDatebaseQueue 就是为了避免并发的访问数据的问题，因为对数据库的访问可能是随机，不同线程间的请求，所以FMDataQueue通过内部创建一个同步的dispatch_queue_t来初始化Database，所以当我们在主线程调用初始化database的时候，后续的所有操作都是同步执行的，这样就变成线程安全了。&lt;/p&gt;
+
+&lt;p&gt;如果遇到大批量的更新操作，需要大批量的访问数据库，这样在后台执行完之前，还是会阻塞主线程，针对这个问题，（1）我们可以分批更新数据量，比如分10次请求（2）不要放在主线程中发起初始化和请求&lt;/p&gt;</content><author><name></name></author><summary type="html">runtime Object-C使用了面向对象特性和消息转发机制。</summary></entry><entry><title type="html">九月的歌!</title><link href="http://localhost:4000/Hellow-world/" rel="alternate" type="text/html" title="九月的歌!" /><published>2017-02-15T01:32:40+08:00</published><updated>2017-02-15T01:32:40+08:00</updated><id>http://localhost:4000/Hellow-world</id><content type="html" xml:base="http://localhost:4000/Hellow-world/"></content><author><name></name></author><summary type="html"></summary></entry></feed>

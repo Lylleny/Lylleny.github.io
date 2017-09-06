@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "React栈"
+date:   2017-02-15 18:32:40 
+img: wooden_house.jpg
+description: 总结react技术栈，并对相关知识的梳理
+---
+
+
+# Promise
+promise就是一个对象，用来传递异步操作的消息。它代表了某个未来才会知道结果的事件（通常是一个异步操作），并且这个事件提供统一的API，可以供进一步处理。
+
+具有以下2个特点：
+
+1)对象的状态不受外界影响。
+
+2)状态一旦改变，就不会再变，任何时候都可以得到这个结果。
+
+
+# redux
+
+redux 是一个应用于管理js应用状态的容器。
+
+三大原则：
+
+1)单一数据源
+
+2)状态唯一性
+
+3)使用纯函数来执行
+
+三个核心概念：
+
+1)Action：通常我们要修改store中的数据唯一的方法是触发action。一般通过store.dispatch()将action传到store，相当于就是描述了有事情已经发生了这一事实。action本质是一个对象，通常包括一个唯一标识符type，用于区分
+
+2)Reducer:reducer本质是一个纯函数，只负责一件事，就是根据接受到action和state来修改store中的state，产生一个新的state
+
+3）Store:store就是把reducer和action联系到一起的对象，它以树的形式保存了整个应用的state，redux应用只有唯一的一个store。它的作用是维持应用的state；提供getstate()方法获取state；提供dispatch(action)方法更新state；通过subscribe(listener)注册监听器。store通过createStore方法来创建，根据整个应用的根reducer初始化state，类似
+
+	let store =createStore(rootRuducer)
+	
+redux是怎样运作的：首先store中维护了一个state，我们dispatch一个action，接下来reducer根据这个action更新state。映射到我们react应用中，store中维护的state就是我们的APP state，一个组件作为view层，做2件事：render和响应用户操作。于是connect就是将store中的必要参数作为props传递给react组件来render，并包装action creator用于在响应用户响应操作时dispatch一个action
+#React-redux
+
+Redux和React并没有必须的关系，它可以被任何的JavaScript框架应用。它和react和react-native配合的更完美。因为react和react-native的组件都是基于state来渲染视图的。而redux正是围绕state的管理而构建起来的应用框架。
+
+react-redux 主要提供两个组件来实现redux功能。
+
+### Connect
+Connet组件主要为react组件提供store中的部分state数据及dispatch方法，这样react组件就可以通过dispatch来更新全局state。
+
+作用：连接react组件和redux-store
+
+	contect([mapStateToProps],[mapDispatchToProps],
+	[mergeProps],[options])
+
+
+参数说明：
+	
+	mapStateToProps(state,owerProps):stateProps
+这个参数函数允许我们将store中的数据作为props绑定到组件上。当state变化，mapStateToProps都会被调用，产生一个新的state
+
+	maoDispatchToProps(dispatch,ownProps):dispatchProps
+contect的第二个参数将action作为props绑定到组件上，也会成为组件的props。
+
+	[mergeProps],[options]
+不管是stateProps还是dispatchProps，都需要和ownprops  merge之后参会被赋值组件。connect第三个参数就是干这个事的。
+
+第四个参数，可不传
+
+
+## Provider
+provider模块是作为整个APP的容器，在你原来的APP container的基础上再包上一层，它的工作很简单，就是接受redux的store作为props，并将其声明为context的属性之一，子组件可以在声明了contextTypes之后可以方便通过this.context.store访问奥store。不过我们通常不这样干，将store放在context里，是为了给下面的connect使用的。
+
+## 为啥connect能成功使用
+connect能成功，是因为Provider组件。Provider在原应用组件上包裹了一层，使原来 的整个应用成为Provider的子组件，接受redux的store作为props，通过context对象传递给子孙组件上的contect。而connect真正连接redux和react，它包裹在我们的容器组件的外一层，它接受上面的provider提供的store里面的state和dispatch，传给一个构造函数，返回一个对象，以属性形式传给我们的容器组件
+
+connect是一个高阶函数，首先传入mapStateToProps，mapDispatchToProps,然后返回一个生产Component函数（wrapWithConnet）,然后再讲真正的Component作为参数传入warpWithConnect，这样就生产出一个经过包裹的connect组件，该组件具有以下特点：
+
+*通过props。store获取祖先Component的store
+
+*props包括stateProps、dispatchProps,parentProps,合并一起得到nextState,作为一个新的props传给真正的Component
+
+*componentDidMount时，添加事件this.store.subscribe(this.handleChange),实现页面交互
+
+*shouldComponentUpdate时判断是否有避免进行渲染，提升页面性能，并得到nextstate
+
+*componentWillUnmount时移除this.handleChange
